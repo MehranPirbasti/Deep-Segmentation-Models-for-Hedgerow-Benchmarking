@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="240.109062pt" height="72.338775pt" viewBox="0 0 240.109062 72.338775" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-14T13:10:55.081366</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 72.338775 
+L 240.109062 72.338775 
+L 240.109062 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="legend_1">
+    <g id="patch_2">
+     <path d="M 2.6 18.23825 
+L 237.509062 18.23825 
+Q 238.669062 18.23825 238.669062 17.07825 
+L 238.669062 2.6 
+Q 238.669062 1.44 237.509062 1.44 
+L 2.6 1.44 
+Q 1.44 1.44 1.44 2.6 
+L 1.44 17.07825 
+Q 1.44 18.23825 2.6 18.23825 
+z
+" style="fill: #ffffff; opacity: 0.95; stroke: #666666; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_1">
+     <text style="font-size: 6.2px; font-family: 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: start" x="88.0325" y="7.835187" transform="rotate(-0 88.0325 7.835187)">Backbone family (colour)</text>
+    </g>
+    <g id="line2d_1">
+     <path d="M 3.47 12.943031 
+L 7.82 12.943031 
+L 12.17 12.943031 
+" style="fill: none"/>
+     <defs>
+      <path id="m9095d0acae" d="M 0 1.7 
+C 0.450845 1.7 0.883286 1.520877 1.202082 1.202082 
+C 1.520877 0.883286 1.7 0.450845 1.7 0 
+C 1.7 -0.450845 1.520877 -0.883286 1.202082 -1.202082 
+C 0.883286 -1.520877 0.450845 -1.7 0 -1.7 
+C -0.450845 -1.7 -0.883286 -1.520877 -1.202082 -1.202082 
+C -1.520877 -0.883286 -1.7 -0.450845 -1.7 0 
+C -1.7 0.450845 -1.520877 0.883286 -1.202082 1.202082 
+C -0.883286 1.520877 -0.450845 1.7 0 1.7 
+z
+" style="stroke: #000000; stroke-width: 0.25"/>
+     </defs>
+     <g>
+      <use xlink:href="#m9095d0acae" x="7.82" y="12.943031" style="fill: #ffa3a3; stroke: #000000; stroke-width: 0.25"/>
+     </g>
+    </g>
+    <g id="text_2">
+     <text style="font-size: 5.8px; font-family: 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: start" x="14.78" y="14.973031" transform="rotate(-0 14.78 14.973031)">MiT-B0</text>
+    </g>
+    <g id="line2d_2">
+     <path d="M 38.482063 12.943031 
+L 42.832063 12.943031 
+L 47.182063 12.943031 
+" style="fill: none"/>
+     <defs>
+      <path id="m87e8fbbc26" d="M 0 1.7 
+C 0.450845 1.7 0.883286 1.520877 1.202082 1.202082 
+C 1.520877 0.883286 1.7 0.450845 1.7 0 
+C 1.7 -0.450845 1.520877 -0.883286 1.202082 -1.202082 
+C 0.883286 -1.520877 0.450845 -1.7 0 -1.7 
+C -0.450845 -1.7 -0.883286 -1.520877 -1.202082 -1.202082 
+C -1.520877 -0.883286 -1.7 -0.450845 -1.7 0 
+C -1.7 0.450845 -1.520877 0.883286 -1.202082 1.202082 
+C -0.883286 1.520877 -0.450845 1.7 0 1.7 
+z
+" style="stroke: #000000; stroke-width: 0.25"/>
+     </defs>
+     <g>
+      <use xlink:href="#m87e8fbbc26" x="42.832063" y="12.943031" style="fill: #da3c3d; stroke: #000000; stroke-width: 0.25"/>
+     </g>
+    </g>
+    <g id="text_3">
+     <text style="font-size: 5.8px; font-family: 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: start" x="49.792063" y="14.973031" transform="rotate(-0 49.792063 14.973031)">MiT-B2</text>
+    </g>
+    <g id="line2d_3">
+     <path d="M 73.494125 12.943031 
+L 77.844125 12.943031 
+L 82.194125 12.943031 
+" style="fill: none"/>
+     <defs>
+      <path id="m3b3670e443" d="M 0 1.7 
+C 0.450845 1.7 0.883286 1.520877 1.202082 1.202082 
+C 1.520877 0.883286 1.7 0.450845 1.7 0 
+C 1.7 -0.450845 1.520877 -0.883286 1.202082 -1.202082 
+C 0.883286 -1.520877 0.450845 -1.7 0 -1.7 
+C -0.450845 -1.7 -0.883286 -1.520877 -1.202082 -1.202082 
+C -1.520877 -0.883286 -1.7 -0.450845 -1.7 0 
+C -1.7 0.450845 -1.520877 0.883286 -1.202082 1.202082 
+C -0.883286 1.520877 -0.450845 1.7 0 1.7 
+z
+" style="stroke: #000000; stroke-width: 0.25"/>
+     </defs>
+     <g>
+      <use xlink:href="#m3b3670e443" x="77.844125" y="12.943031" style="fill: #973232; stroke: #000000; stroke-width: 0.25"/>
+     </g>
+    </g>
+    <g id="text_4">
+     <text style="font-size: 5.8px; font-family: 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: start" x="84.804125" y="14.973031" transform="rotate(-0 84.804125 14.973031)">MiT-B4</text>
+    </g>
+    <g id="line2d_4">
+     <path d="M 108.506188 12.943031 
+L 112.856188 12.943031 
+L 117.206188 12.943031 
+" style="fill: none"/>
+     <defs>
+      <path id="ma68fe7f6c9" d="M 0 1.7 
+C 0.450845 1.7 0.883286 1.520877 1.202082 1.202082 
+C 1.520877 0.883286 1.7 0.450845 1.7 0 
+C 1.7 -0.450845 1.520877 -0.883286 1.202082 -1.202082 
+C 0.883286 -1.520877 0.450845 -1.7 0 -1.7 
+C -0.450845 -1.7 -0.883286 -1.520877 -1.202082 -1.202082 
+C -1.520877 -0.883286 -1.7 -0.450845 -1.7 0 
+C -1.7 0.450845 -1.520877 0.883286 -1.202082 1.202082 
+C -0.883286 1.520877 -0.450845 1.7 0 1.7 
+z
+" style="stroke: #000000; stroke-width: 0.25"/>
+     </defs>
+     <g>
+      <use xlink:href="#ma68fe7f6c9" x="112.856188" y="12.943031" style="fill: #3584bb; stroke: #000000; stroke-width: 0.25"/>
+     </g>
+    </g>
+    <g id="text_5">
+     <text style="font-size: 5.8px; font-family: 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: start" x="119.816188" y="14.973031" transform="rotate(-0 119.816188 14.973031)">ResNet-50</text>
+    </g>
+    <g id="line2d_5">
+     <path d="M 149.842969 12.943031 
+L 154.192969 12.943031 
+L 158.542969 12.943031 
+" style="fill: none"/>
+     <defs>
+      <path id="mc48221db6f" d="M 0 1.7 
+C 0.450845 1.7 0.883286 1.520877 1.202082 1.202082 
+C 1.520877 0.883286 1.7 0.450845 1.7 0 
+C 1.7 -0.450845 1.520877 -0.883286 1.202082 -1.202082 
+C 0.883286 -1.520877 0.450845 -1.7 0 -1.7 
+C -0.450845 -1.7 -0.883286 -1.520877 -1.202082 -1.202082 
+C -1.520877 -0.883286 -1.7 -0.450845 -1.7 0 
+C -1.7 0.450845 -1.520877 0.883286 -1.202082 1.202082 
+C -0.883286 1.520877 -0.450845 1.7 0 1.7 
+z
+" style="stroke: #000000; stroke-width: 0.25"/>
+     </defs>
+     <g>
+      <use xlink:href="#mc48221db6f" x="154.192969" y="12.943031" style="fill: #ff8b26; stroke: #000000; stroke-width: 0.25"/>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 5.8px; font-family: 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: start" x="161.152969" y="14.973031" transform="rotate(-0 161.152969 14.973031)">ResNet-34</text>
+    </g>
+    <g id="line2d_6">
+     <path d="M 191.17975 12.943031 
+L 195.52975 12.943031 
+L 199.87975 12.943031 
+" style="fill: none"/>
+     <defs>
+      <path id="m08957f7745" d="M 0 1.7 
+C 0.450845 1.7 0.883286 1.520877 1.202082 1.202082 
+C 1.520877 0.883286 1.7 0.450845 1.7 0 
+C 1.7 -0.450845 1.520877 -0.883286 1.202082 -1.202082 
+C 0.883286 -1.520877 0.450845 -1.7 0 -1.7 
+C -0.450845 -1.7 -0.883286 -1.520877 -1.202082 -1.202082 
+C -1.520877 -0.883286 -1.7 -0.450845 -1.7 0 
+C -1.7 0.450845 -1.520877 0.883286 -1.202082 1.202082 
+C -0.883286 1.520877 -0.450845 1.7 0 1.7 
+z
+" style="stroke: #000000; stroke-width: 0.25"/>
+     </defs>
+     <g>
+      <use xlink:href="#m08957f7745" x="195.52975" y="12.943031" style="fill: #41a941; stroke: #000000; stroke-width: 0.25"/>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 5.8px; font-family: 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: start" x="202.48975" y="14.973031" transform="rotate(-0 202.48975 14.973031)">MobileNet-V2</text>
+    </g>
+   </g>
+   <g id="legend_2">
+    <g id="patch_3">
+     <path d="M 17.421266 70.898775 
+L 222.687797 70.898775 
+Q 223.847797 70.898775 223.847797 69.738775 
+L 223.847797 48.2894 
+Q 223.847797 47.1294 222.687797 47.1294 
+L 17.421266 47.1294 
+Q 16.261266 47.1294 16.261266 48.2894 
+L 16.261266 69.738775 
+Q 16.261266 70.898775 17.421266 70.898775 
+z
+" style="fill: #ffffff; opacity: 0.95; stroke: #666666; stroke-width: 0.6; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 6.2px; font-family: 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: start" x="92.946" y="53.461619" transform="rotate(-0 92.946 53.461619)">Architecture (marker)</text>
+    </g>
+    <g id="line2d_7">
+     <path d="M 18.291266 58.552025 
+L 22.641266 58.552025 
+L 26.991266 58.552025 
+" style="fill: none"/>
+     <defs>
+      <path id="m2346787444" d="M 0 1.7 
+C 0.450845 1.7 0.883286 1.520877 1.202082 1.202082 
+C 1.520877 0.883286 1.7 0.450845 1.7 0 
+C 1.7 -0.450845 1.520877 -0.883286 1.202082 -1.202082 
+C 0.883286 -1.520877 0.450845 -1.7 0 -1.7 
+C -0.450845 -1.7 -0.883286 -1.520877 -1.202082 -1.202082 
+C -1.520877 -0.883286 -1.7 -0.450845 -1.7 0 
+C -1.7 0.450845 -1.520877 0.883286 -1.202082 1.202082 
+C -0.883286 1.520877 -0.450845 1.7 0 1.7 
+z
+" style="stroke: #000000; stroke-width: 0.25"/>
+     </defs>
+     <g>
+      <use xlink:href="#m2346787444" x="22.641266" y="58.552025" style="fill: #737373; stroke: #000000; stroke-width: 0.25"/>
+     </g>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 5.8px; font-family: 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: start" x="29.601266" y="60.582025" transform="rotate(-0 29.601266 60.582025)">DPT</text>
+    </g>
+    <g id="line2d_8">
+     <path d="M 18.291266 65.587244 
+L 22.641266 65.587244 
+L 26.991266 65.587244 
+" style="fill: none"/>
+     <defs>
+      <path id="mfab3ce5708" d="M -0.85 1.7 
+L 0 0.85 
+L 0.85 1.7 
+L 1.7 0.85 
+L 0.85 0 
+L 1.7 -0.85 
+L 0.85 -1.7 
+L 0 -0.85 
+L -0.85 -1.7 
+L -1.7 -0.85 
+L -0.85 0 
+L -1.7 0.85 
+z
+" style="stroke: #000000; stroke-width: 0.25; stroke-linejoin: miter"/>
+     </defs>
+     <g>
+      <use xlink:href="#mfab3ce5708" x="22.641266" y="65.587244" style="fill: #737373; stroke: #000000; stroke-width: 0.25; stroke-linejoin: miter"/>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 5.8px; font-family: 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: start" x="29.601266" y="67.617244" transform="rotate(-0 29.601266 67.617244)">DeepLabV3</text>
+    </g>
+    <g id="line2d_9">
+     <path d="M 63.165141 58.552025 
+L 67.515141 58.552025 
+L 71.865141 58.552025 
+" style="fill: none"/>
+     <defs>
+      <path id="m8cc1b83f17" d="M -1.7 1.7 
+L 1.7 1.7 
+L 1.7 -1.7 
+L -1.7 -1.7 
+z
+" style="stroke: #000000; stroke-width: 0.25; stroke-linejoin: miter"/>
+     </defs>
+     <g>
+      <use xlink:href="#m8cc1b83f17" x="67.515141" y="58.552025" style="fill: #737373; stroke: #000000; stroke-width: 0.25; stroke-linejoin: miter"/>
+     </g>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 5.8px; font-family: 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: start" x="74.475141" y="60.582025" transform="rotate(-0 74.475141 60.582025)">DeepLabV3+</text>
+    </g>
+    <g id="line2d_10">
+     <path d="M 63.165141 65.587244 
+L 67.515141 65.587244 
+L 71.865141 65.587244 
+" style="fill: none"/>
+     <defs>
+      <path id="m51f640131c" d="M -0.566667 1.7 
+L 0.566667 1.7 
+L 0.566667 0.566667 
+L 1.7 0.566667 
+L 1.7 -0.566667 
+L 0.566667 -0.566667 
+L 0.566667 -1.7 
+L -0.566667 -1.7 
+L -0.566667 -0.566667 
+L -1.7 -0.566667 
+L -1.7 0.566667 
+L -0.566667 0.566667 
+z
+" style="stroke: #000000; stroke-width: 0.25; stroke-linejoin: miter"/>
+     </defs>
+     <g>
+      <use xlink:href="#m51f640131c" x="67.515141" y="65.587244" style="fill: #737373; stroke: #000000; stroke-width: 0.25; stroke-linejoin: miter"/>
+     </g>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 5.8px; font-family: 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: start" x="74.475141" y="67.617244" transform="rotate(-0 74.475141 67.617244)">FPN</text>
+    </g>
+    <g id="line2d_11">
+     <path d="M 111.309672 58.552025 
+L 115.659672 58.552025 
+L 120.009672 58.552025 
+" style="fill: none"/>
+     <defs>
+      <path id="ma3048f4054" d="M -0 2.404163 
+L 2.404163 0 
+L 0 -2.404163 
+L -2.404163 -0 
+z
+" style="stroke: #000000; stroke-width: 0.25; stroke-linejoin: miter"/>
+     </defs>
+     <g>
+      <use xlink:href="#ma3048f4054" x="115.659672" y="58.552025" style="fill: #737373; stroke: #000000; stroke-width: 0.25; stroke-linejoin: miter"/>
+     </g>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 5.8px; font-family: 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: start" x="122.619672" y="60.582025" transform="rotate(-0 122.619672 60.582025)">LinkNet</text>
+    </g>
+    <g id="line2d_12">
+     <path d="M 111.309672 65.587244 
+L 115.659672 65.587244 
+L 120.009672 65.587244 
+" style="fill: none"/>
+     <defs>
+      <path id="mb8ab045f9a" d="M 0 -1.7 
+L -0.601041 -0.601041 
+L -1.7 -0 
+L -0.601041 0.601041 
+L -0 1.7 
+L 0.601041 0.601041 
+L 1.7 0 
+L 0.601041 -0.601041 
+z
+" style="stroke: #000000; stroke-width: 0.25; stroke-linejoin: bevel"/>
+     </defs>
+     <g>
+      <use xlink:href="#mb8ab045f9a" x="115.659672" y="65.587244" style="fill: #737373; stroke: #000000; stroke-width: 0.25; stroke-linejoin: bevel"/>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 5.8px; font-family: 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: start" x="122.619672" y="67.617244" transform="rotate(-0 122.619672 67.617244)">PAN</text>
+    </g>
+    <g id="line2d_13">
+     <path d="M 147.168172 58.552025 
+L 151.518172 58.552025 
+L 155.868172 58.552025 
+" style="fill: none"/>
+     <defs>
+      <path id="mccb04f459b" d="M 0 -1.7 
+L -1.7 1.7 
+L 1.7 1.7 
+z
+" style="stroke: #000000; stroke-width: 0.25; stroke-linejoin: miter"/>
+     </defs>
+     <g>
+      <use xlink:href="#mccb04f459b" x="151.518172" y="58.552025" style="fill: #737373; stroke: #000000; stroke-width: 0.25; stroke-linejoin: miter"/>
+     </g>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 5.8px; font-family: 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: start" x="158.478172" y="60.582025" transform="rotate(-0 158.478172 60.582025)">SegFormer</text>
+    </g>
+    <g id="line2d_14">
+     <path d="M 147.168172 65.603556 
+L 151.518172 65.603556 
+L 155.868172 65.603556 
+" style="fill: none"/>
+     <defs>
+      <path id="mefb1cb813f" d="M 0 -1.7 
+L -0.325281 -0.785298 
+L -1.202082 -1.202082 
+L -0.785298 -0.325281 
+L -1.7 -0 
+L -0.785298 0.325281 
+L -1.202082 1.202082 
+L -0.325281 0.785298 
+L -0 1.7 
+L 0.325281 0.785298 
+L 1.202082 1.202082 
+L 0.785298 0.325281 
+L 1.7 0 
+L 0.785298 -0.325281 
+L 1.202082 -1.202082 
+L 0.325281 -0.785298 
+z
+" style="stroke: #000000; stroke-width: 0.25; stroke-linejoin: bevel"/>
+     </defs>
+     <g>
+      <use xlink:href="#mefb1cb813f" x="151.518172" y="65.603556" style="fill: #737373; stroke: #000000; stroke-width: 0.25; stroke-linejoin: bevel"/>
+     </g>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 5.8px; font-family: 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: start" x="158.478172" y="67.633556" transform="rotate(-0 158.478172 67.633556)">U-Net</text>
+    </g>
+    <g id="line2d_15">
+     <path d="M 189.471922 58.552025 
+L 193.821922 58.552025 
+L 198.171922 58.552025 
+" style="fill: none"/>
+     <defs>
+      <path id="mb33167b1d7" d="M -0 1.7 
+L 1.7 -1.7 
+L -1.7 -1.7 
+z
+" style="stroke: #000000; stroke-width: 0.25; stroke-linejoin: miter"/>
+     </defs>
+     <g>
+      <use xlink:href="#mb33167b1d7" x="193.821922" y="58.552025" style="fill: #737373; stroke: #000000; stroke-width: 0.25; stroke-linejoin: miter"/>
+     </g>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 5.8px; font-family: 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: start" x="200.781922" y="60.582025" transform="rotate(-0 200.781922 60.582025)">U-Net++</text>
+    </g>
+    <g id="line2d_16">
+     <path d="M 189.471922 65.587244 
+L 193.821922 65.587244 
+L 198.171922 65.587244 
+" style="fill: none"/>
+     <defs>
+      <path id="md01c696b63" d="M 0 -1.7 
+L -0.425 -0.736122 
+L -1.472243 -0.85 
+L -0.85 -0 
+L -1.472243 0.85 
+L -0.425 0.736122 
+L -0 1.7 
+L 0.425 0.736122 
+L 1.472243 0.85 
+L 0.85 0 
+L 1.472243 -0.85 
+L 0.425 -0.736122 
+z
+" style="stroke: #000000; stroke-width: 0.25; stroke-linejoin: bevel"/>
+     </defs>
+     <g>
+      <use xlink:href="#md01c696b63" x="193.821922" y="65.587244" style="fill: #737373; stroke: #000000; stroke-width: 0.25; stroke-linejoin: bevel"/>
+     </g>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 5.8px; font-family: 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: start" x="200.781922" y="67.617244" transform="rotate(-0 200.781922 67.617244)">UPerNet</text>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

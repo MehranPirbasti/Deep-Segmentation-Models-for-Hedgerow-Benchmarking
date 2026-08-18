@@ -1,0 +1,82 @@
+{
+  "ablation_runs": [
+    {
+      "base": "unetpp-resnet50",
+      "name": "unetpp-resnet50-nods",
+      "override": {
+        "deep_supervision": false
+      }
+    }
+  ],
+  "base_seed": 42,
+  "batch_size": 8,
+  "bf1_tolerances": [
+    1,
+    2
+  ],
+  "block_size_windows": 4,
+  "bootstrap_alpha": 0.05,
+  "bootstrap_n": 10000,
+  "buffer_neighborhood": 1,
+  "cosine_eta_min": 1e-06,
+  "cosine_t_max": 100,
+  "crop_size": 256,
+  "deep_supervision_heads": {
+    "unetpp": true
+  },
+  "density_strata": 4,
+  "ds_aux_weight": 1.0,
+  "encoder_init": "imagenet",
+  "eval_size": 416,
+  "extra_seeds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "extract_stride": 416,
+  "focal_gamma": 2.0,
+  "gsd_m": 1.2,
+  "in_channels": 4,
+  "loss_weights": {
+    "bce": 0.3,
+    "dice": 0.3,
+    "focal": 0.4
+  },
+  "lr": 0.0001,
+  "min_eligible_fraction": 0.05,
+  "min_valid_fraction": 0.99,
+  "multi_seed_models": [
+    "unetpp-resnet50",
+    "upernet-resnet50",
+    "unet-resnet50",
+    "linknet-resnet34",
+    "deeplab-resnet50",
+    "segformer-mitb4",
+    "deeplabplus-resnet50",
+    "fpn-resnet50",
+    "pan-resnet34"
+  ],
+  "num_epochs": 100,
+  "num_workers": 2,
+  "patch_size": 416,
+  "persistent_workers": true,
+  "pin_memory": true,
+  "radiometric_max": 1419.0,
+  "run_plan": "paper_table",
+  "split_precedence": {
+    "test": 3,
+    "train": 1,
+    "validation": 2
+  },
+  "split_seed": 42,
+  "target_split": {
+    "test": 0.15,
+    "train": 0.7,
+    "validation": 0.15
+  },
+  "threshold": 0.5,
+  "topo_every_n_epochs": 20,
+  "use_amp": true,
+  "weight_decay": 0.0001
+}
