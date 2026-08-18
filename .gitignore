@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+*.egg-info/
+.venv/
+venv/
+
+# Licensed data and derived artefacts: never commit these
+DATA/
+DATA_*/
+*.tif
+*.tiff
+*.jp2
+*.pth
+*.pt
+*.ckpt
+OUT/
+checkpoints/
+model_weights/
+predictions/

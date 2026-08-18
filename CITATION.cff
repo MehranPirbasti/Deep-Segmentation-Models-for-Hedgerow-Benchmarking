@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+title: "Benchmarking Deep Segmentation Models for Hedgerow Mapping: A Controlled Comparative Study of Vegetated Linear Structures in High-Resolution Remote Sensing"
+message: "If you use this software, please cite the accompanying article."
+type: software
+authors:
+  - given-names: "Mehran"
+    family-names: "Alizadeh Pirbasti"
+    affiliation: "School of Computer Science, University College Dublin, Ireland"
+  - given-names: "Emadoddin"
+    family-names: "Hemmati"
+    affiliation: "Faculty of Geodesy and Geomatics Engineering, K. N. Toosi University of Technology, Iran"
+  - given-names: "Niloofar"
+    family-names: "Alizadeh"
+    affiliation: "Faculty of Geodesy and Geomatics Engineering, K. N. Toosi University of Technology, Iran"
+  - given-names: "Gavin"
+    family-names: "McArdle"
+    affiliation: "School of Computer Science, University College Dublin, Ireland"
+  - given-names: "Vahid"
+    family-names: "Akbari"
+    affiliation: "School of Computing, Data, and Mathematical Sciences, University of Stirling, Scotland, UK"
+license: MIT
+repository-code: "https://github.com/MehranPirbasti/Deep-Segmentation-Models-for-Hedgerow-Benchmarking"
+keywords:
+  - "remote sensing"
+  - "semantic segmentation"
+  - "hedgerows"
+  - "benchmark"
+  - "topology-aware metrics"
+preferred-citation:
+  type: article
+  title: "Benchmarking Deep Segmentation Models for Hedgerow Mapping: A Controlled Comparative Study of Vegetated Linear Structures in High-Resolution Remote Sensing"
+  journal: "IEEE Transactions on Geoscience and Remote Sensing"
+  year: 2026
+  authors:
+    - given-names: "Mehran"
+      family-names: "Alizadeh Pirbasti"
+    - given-names: "Emadoddin"
+      family-names: "Hemmati"
+    - given-names: "Niloofar"
+      family-names: "Alizadeh"
+    - given-names: "Gavin"
+      family-names: "McArdle"
+    - given-names: "Vahid"
+      family-names: "Akbari"
