@@ -10,7 +10,7 @@ Ten decoder families are paired with six encoder backbones and trained under a
 single frozen protocol, so that architecture is the only variable that changes.
 Models are scored on region overlap, boundary alignment at two tolerance radii,
 and three topology-aware indices.
----
+
 
 ## What is here, and what is not
 
@@ -25,7 +25,7 @@ obtainable by any researcher from their providers on the same terms under which
 they were obtained for this study; see [`docs/DATA_ACCESS.md`](docs/DATA_ACCESS.md).
 Given those inputs the pipeline below is deterministic and reproduces the
 reported partition, models and numbers.
----
+
 
 ## Quick start
 
