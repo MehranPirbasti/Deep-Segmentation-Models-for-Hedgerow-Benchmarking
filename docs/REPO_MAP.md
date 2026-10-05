@@ -36,10 +36,6 @@
 
 ## Data
 
-| Path | Purpose |
-|---|---|
-| `data/tables/*.csv` | the manuscript tables in machine-readable form (see `data/tables/README.md`) |
-
 Not in the repository: the per-patch split assignment and the per-patch
 evaluation outputs. Both are regenerated from the licensed inputs by
 `scripts/01_extract_patches.py` -> `scripts/02_make_splits.py` (seed 42) and by

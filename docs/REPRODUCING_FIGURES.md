@@ -2,8 +2,8 @@
 
 > **Note.** The working files named below (`master.csv`, the per-figure CSVs,
 > `Figure_Data.xlsx`, `_provenance.csv`) are produced locally by the analysis
-> scripts and are not part of this repository. The manuscript tables themselves
-> are provided as CSV in `data/tables/`.
+> scripts and are not part of this repository; the manuscript tables they read
+> are transcribed in `analysis/tables.py`.
 
 
 Every figure that carries data is a plot drawn by `matplotlib` from a table. None
@@ -57,10 +57,3 @@ the saved file are iterated until they match, so the point sizes set in
 `paperstyle.py` are the point sizes that reach the page. Color identifies the
 encoder backbone and marker shape the decoder, one convention in every figure.
 Export is 600 dpi PNG plus SVG and PDF.
-
-## One figure is explicitly synthetic
-
-`Heterogeneous_Conditions_Panel.png` shows illustrative prediction masks
-**synthesized from the reference annotation** to show how the three
-characteristic error modes present themselves under each hedgerow condition. The
-figure caption states this in bold, and no quantitative claim depends on it.

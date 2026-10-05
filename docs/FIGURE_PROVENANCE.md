@@ -2,8 +2,8 @@
 
 > **Note.** The working files named below (`master.csv`, the per-figure CSVs,
 > `Figure_Data.xlsx`, `_provenance.csv`) are produced locally by the analysis
-> scripts and are not part of this repository. The manuscript tables themselves
-> are provided as CSV in `data/tables/`.
+> scripts and are not part of this repository; the manuscript tables they read
+> are transcribed in `analysis/tables.py`.
 
 
 Prepared in response to the query about whether the figures are machine-generated
