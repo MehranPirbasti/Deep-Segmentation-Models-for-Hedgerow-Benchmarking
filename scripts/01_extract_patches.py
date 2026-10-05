@@ -1,14 +1,13 @@
+#!/usr/bin/env python3
 """Cuts the scene into 416x416 patches and writes patch_inventory.csv.
 
 The imagery and the reference layer are licensed and are not in this repo. This
 is the code that produced our patches; run it on data you have licensed.
-"""
-#!/usr/bin/env python3
-"""
+
 Sliding-window patch extraction from the orthorectified scene and the rasterized
 hedgerow reference (manuscript Section III-B).
 
-Window 416x416 px, stride 208 px (50 % step). Windows are discarded when they
+Window 416x416 px, stride 416 px (non-overlapping tiling). Windows are discarded when they
 contain no-data pixels or fall entirely inside land-cover classes excluded from
 the UKCEH hedgerow product. Writes the patches plus patch_inventory.csv, which
 is the input to 02_make_splits.py.
@@ -100,7 +99,7 @@ def main():
     area_km2 = len(inv) * (P * C.GSD_M) ** 2 / 1e6
     print(f"kept {len(inv)} windows | mean hedgerow fraction "
           f"{inv['hedgerow_fraction'].mean():.4f} | window footprint area "
-          f"{area_km2:.1f} km^2 (overlapping)")
+          f"{area_km2:.1f} km^2 (non-overlapping tiles)")
     print(f"wrote {inv_path}")
 
 

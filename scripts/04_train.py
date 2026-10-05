@@ -1,6 +1,6 @@
-"""Runs the model grid. Safe to interrupt: it resumes and skips finished runs."""
 #!/usr/bin/env python3
-"""
+"""Runs the model grid. Safe to interrupt: it resumes and skips finished runs.
+
 Run the controlled comparative study: 60 configurations under the frozen
 protocol, plus the multi-seed repeats and the deep-supervision ablation.
 

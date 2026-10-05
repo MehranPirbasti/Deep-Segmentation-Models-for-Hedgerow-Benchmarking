@@ -1,16 +1,15 @@
+#!/usr/bin/env python3
 """Assigns patches to train/val/test and writes the split.
 
 Blocks of adjacent patches are assigned as units, stratified by hedgerow
 density, and any patch sitting on the seam between two differently assigned
 blocks is dropped. That is the one-patch buffer described in Section III-B.
-"""
-#!/usr/bin/env python3
-"""
+
 Input
 ---
 patch_inventory.csv produced by 01_extract_patches.py, with at least:
     patch_id, row, col, hedgerow_fraction
-where (row, col) are indices on the sliding-window grid (stride 208 px).
+where (row, col) are indices on the non-overlapping 416 px tiling grid.
 
 Procedure
 -----
@@ -19,16 +18,17 @@ Procedure
 3. Within each stratum, assign WHOLE BLOCKS to train/validation/test in the
    target 70/15/15 proportions, using a fixed seed. Stratifying by density makes
    foreground prevalence comparable across partitions.
-4. Apply the buffer. Because the extraction stride is half the window width, two
-   windows share pixels iff they are 8-neighbours on the window grid. Every
-   window that is an 8-neighbour of a window belonging to a DIFFERENT partition
-   is therefore a leakage path. We drop the window on the LOWER-PRECEDENCE side
-   of each seam (train < validation < test), which:
-       (a) guarantees that no image pixel is shared between any two partitions,
-           i.e. the partitions are pixel-disjoint by design; and
+4. Apply the one-patch geographic buffer. Every patch that has, among its
+   eight neighbouring grid positions, a patch assigned to a DIFFERENT partition
+   lies on a cross-partition seam and is a spatial-autocorrelation leakage path.
+   We drop the patch on the LOWER-PRECEDENCE side of each seam
+   (train < validation < test), which:
+       (a) guarantees that no kept patch in one partition is adjacent to a kept
+           patch in another, so the buffer between partitions is at least one
+           patch (416 px = 499 m at 1.2 m GSD) wide; and
        (b) erodes the large training partition rather than the small evaluation
            partitions, which would otherwise lose a disproportionate share of
-           their windows and inflate the variance of the reported scores.
+           their patches and inflate the variance of the reported scores.
 
 Output
 ---
@@ -109,8 +109,8 @@ def apply_buffer(df: pd.DataFrame) -> pd.DataFrame:
     return out
 
 
-def verify_pixel_disjoint(df: pd.DataFrame) -> None:
-    """Hard check: no two kept windows from different partitions overlap."""
+def verify_no_cross_partition_adjacency(df: pd.DataFrame) -> None:
+    """Hard check: no kept patch is 8-adjacent to a kept patch of another partition."""
     kept = df[~df["dropped"]]
     lut = {(int(r), int(c)): s for r, c, s in zip(kept["row"], kept["col"], kept["split"])}
     bad = 0
@@ -124,10 +124,10 @@ def verify_pixel_disjoint(df: pd.DataFrame) -> None:
                     bad += 1
     if bad:
         raise AssertionError(
-            f"{bad} overlapping window pairs remain across partitions; the split "
-            f"is NOT pixel-disjoint. Refusing to write split_metadata.csv.")
-    print("  [verify] partitions are pixel-disjoint: no overlapping window pair "
-          "spans two splits.")
+            f"{bad} adjacent patch pairs remain across partitions; the one-patch "
+            f"buffer is violated. Refusing to write split_metadata.csv.")
+    print("  [verify] one-patch buffer holds: no kept patch is adjacent to a kept "
+          "patch of another partition.")
 
 
 def main():
@@ -161,7 +161,7 @@ def main():
     df = df.merge(blocks[["split", "density_stratum", "density"]],
                   left_on="block_id", right_index=True, how="left")
     df = apply_buffer(df)
-    verify_pixel_disjoint(df)
+    verify_no_cross_partition_adjacency(df)
 
     kept = df[~df["dropped"]]
     counts = kept["split"].value_counts().to_dict()
@@ -180,8 +180,8 @@ def main():
         "block_size_windows": B,
         "extract_stride_px": C.EXTRACT_STRIDE,
         "patch_size_px": C.PATCH_SIZE,
-        "buffer": "one-sided, full-window-width (Chebyshev radius 1 on the window grid)",
-        "pixel_disjoint_verified": True,
+        "buffer": "one-sided, one patch wide (Chebyshev radius 1 on the patch grid; 416 px = 499 m)",
+        "buffer_verified": True,
         "split_seed": C.SPLIT_SEED,
         "foreground_prevalence_by_split": {
             k: round(float(v), 5) for k, v in

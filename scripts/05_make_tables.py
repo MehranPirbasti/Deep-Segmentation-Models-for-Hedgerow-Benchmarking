@@ -1,6 +1,5 @@
-"""Builds every table in the paper from model_metrics.csv."""
 #!/usr/bin/env python3
-"""
+"""Builds every table in the paper from model_metrics.csv.
 
 """
 from __future__ import annotations

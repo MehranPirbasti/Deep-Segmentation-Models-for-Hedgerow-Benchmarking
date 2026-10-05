@@ -1,6 +1,6 @@
-"""Builds the figures from a finished training run."""
 #!/usr/bin/env python3
-"""
+"""Builds the figures from a finished training run.
+
 Regenerate every data-driven figure from master_results.csv.
 
 """
