@@ -168,7 +168,7 @@ reported number depends on them.
 **Vector:** not applicable (photograph or diagram)  
 **Data:**, (imagery)
 
-**Caption:** Heterogeneous hedgerow conditions in the study area. Each row shows a test sample, its reference annotation, and predictions for the three behavior patterns identified in Section Table qualitative: conservative (U-Net++ (ResNet-50)), balanced (UPerNet (MiT-B4)), and expansive (LinkNet (ResNet-34)). Test samples are displayed with a common radiometric normalization so the conditions are comparable; the irregular, unique-form condition is not repeated here because that patch is the one shown in Fig. Fig. 15; black areas fall outside the acquisition footprint. The prediction masks are synthesized for illustration and are not measured outputs; quantitative results are reported in Tables Table best_by_arch_main_hybrid and Table two_way_best_summary. Imagery (c) Airbus DS 2022.
+**Caption:** Heterogeneous hedgerow conditions in the study area. Each row shows a test sample, its reference annotation, and predictions for the three behavior patterns identified in Section Table qualitative: conservative (U-Net++ (ResNet-50)), balanced (UPerNet (MiT-B4)), and expansive (LinkNet (ResNet-34)). Test samples are displayed with a common radiometric normalization so the conditions are comparable; the irregular, unique-form condition is not repeated here because that patch is the one shown in Fig. Fig. 15; black areas fall outside the acquisition footprint. Imagery (c) Airbus DS 2022.
 
 ### Figure 18, `fig:encoder_frontier`
 

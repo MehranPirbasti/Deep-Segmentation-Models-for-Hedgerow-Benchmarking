@@ -34,16 +34,6 @@ The three panels that contain satellite imagery are photographs, not plots:
 `Proxy_Annotation_Update.jpg` reproduce Pleiades Neo extracts under license
 ((c) Airbus DS 2022) with model predictions overlaid. `Workflow.png` is a diagram.
 
-## One figure is explicitly synthetic, and says so
-
-`Heterogeneous_Conditions_Panel.png` shows, for each hedgerow condition, the test
-sample, the reference annotation, and **illustrative prediction masks that are
-synthesized from the reference** to show how the three characteristic error modes
-present themselves. This is stated in bold in the figure caption in the
-manuscript, and the masks are not used for any quantitative claim. Every number
-in the paper comes from the tables, not from this figure. We flag it here so that
-its status is unambiguous.
-
 ## How to verify, in three commands
 
 ```bash

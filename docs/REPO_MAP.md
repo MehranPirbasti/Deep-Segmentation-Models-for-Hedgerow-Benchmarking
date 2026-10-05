@@ -26,7 +26,6 @@
 | `analysis/master.py` | merges tables, recovered values and imputation into one table |
 | `analysis/paperstyle.py` | typography, colors, markers, printed-size handling |
 | `analysis/build_v6.py` | draws every data figure |
-| `analysis/make_hetero_v2.py` | the heterogeneous-conditions panel |
 | `analysis/audit.py` | verifies every figure against the manuscript tables (needs the local `data/master.csv`) |
 | `analysis/stats_audit.py` | re-runs the statistical claims made in the text |
 | `analysis/extract_*.py` | recovery of values from the original submission figures |

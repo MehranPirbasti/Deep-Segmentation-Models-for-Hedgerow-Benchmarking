@@ -18,7 +18,6 @@ cells are stored as **selectable, searchable text**.
 cd analysis
 python master.py                          # assemble the master table
 python build_v6.py --out ../figures/png --topology
-python make_hetero_v2.py                  # the heterogeneous-conditions panel
 python audit.py                           # verify against the manuscript tables
 ```
 
