@@ -1,5 +1,11 @@
 # Reproducing and editing the figures
 
+> **Note.** The working files named below (`master.csv`, the per-figure CSVs,
+> `Figure_Data.xlsx`, `_provenance.csv`) are produced locally by the analysis
+> scripts and are not part of this repository. The manuscript tables themselves
+> are provided as CSV in `data/tables/`.
+
+
 Every figure that carries data is a plot drawn by `matplotlib` from a table. None
 is drawn by hand or produced by an image-generation model. The vector versions in
 `figures/vector/` make this checkable: open an `.svg` in a text editor and the

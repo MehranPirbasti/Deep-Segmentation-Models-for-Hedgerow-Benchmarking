@@ -1,5 +1,11 @@
 # Figure provenance and editable sources
 
+> **Note.** The working files named below (`master.csv`, the per-figure CSVs,
+> `Figure_Data.xlsx`, `_provenance.csv`) are produced locally by the analysis
+> scripts and are not part of this repository. The manuscript tables themselves
+> are provided as CSV in `data/tables/`.
+
+
 Prepared in response to the query about whether the figures are machine-generated
 imagery.
 
@@ -46,10 +52,8 @@ python stats_audit.py   # re-runs the statistical checks reported in the text
 python build_v6.py --out Fig --topology    # regenerates every figure from the data
 ```
 
-`audit.py` currently reports **105 manuscript table cells checked, 0
-mismatches**. Change any value in `Figure_Data.xlsx` or in `master.csv`, re-run
-the build, and the corresponding figure changes: this is the practical proof
-that the figures are functions of the data rather than artwork.
+`audit.py` checks every plotted value against the manuscript tables and names
+any cell that disagrees; it runs on the locally built `data/master.csv`.
 
 ## How to edit a figure
 

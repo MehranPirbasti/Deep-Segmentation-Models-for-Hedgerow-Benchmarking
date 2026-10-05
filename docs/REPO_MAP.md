@@ -27,7 +27,7 @@
 | `analysis/paperstyle.py` | typography, colors, markers, printed-size handling |
 | `analysis/build_v6.py` | draws every data figure |
 | `analysis/make_hetero_v2.py` | the heterogeneous-conditions panel |
-| `analysis/audit.py` | verifies every figure against the manuscript tables |
+| `analysis/audit.py` | verifies every figure against the manuscript tables (needs the local `data/master.csv`) |
 | `analysis/stats_audit.py` | re-runs the statistical claims made in the text |
 | `analysis/extract_*.py` | recovery of values from the original submission figures |
 | `analysis/export_data.py` | writes one CSV per figure |
@@ -38,14 +38,14 @@
 
 | Path | Purpose |
 |---|---|
-| `data/release/split_metadata.csv` | the per-patch split assignment, 12,000 used patches |
-| `data/release/perpatch/` | per-test-patch metric values, one file per configuration |
-| `data/master.csv` | the single source table for every figure |
-| `data/<Figure>.csv` | one file per figure, exactly what it plots |
-| `data/Figure_Data.xlsx` | the same, in one editable workbook with a legend |
-| `data/_provenance.csv` | where each quantity comes from |
-| `data/seed_runs.csv` | the five-seed runs behind Table V |
-| `data/decoder_val_iou.csv`, `data/convergence_bands.csv` | series recovered from the original figures |
+| `data/tables/*.csv` | the manuscript tables in machine-readable form (see `data/tables/README.md`) |
+
+Not in the repository: the per-patch split assignment and the per-patch
+evaluation outputs. Both are regenerated from the licensed inputs by
+`scripts/01_extract_patches.py` -> `scripts/02_make_splits.py` (seed 42) and by
+`hedgebench/metrics.py` on the resulting predictions. The figure pipeline's
+working files (`master.csv`, per-figure CSVs, `Figure_Data.xlsx`) are produced
+locally by `analysis/master.py` and `analysis/export_data.py`.
 
 ## Figures
 

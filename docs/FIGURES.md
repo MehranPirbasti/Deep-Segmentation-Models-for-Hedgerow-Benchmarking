@@ -64,7 +64,7 @@ reported number depends on them.
 **Vector:** Test_Set_Radar_All.svg  
 **Data:** Test_Set_Radar_All.csv
 
-**Caption:** Normalized multi-axis comparison of every evaluated configuration, split into (a) matched and (b) hybrid decoder-backbone pairings. The five axes are IoU, Dice/F1, BF1 at r=2, and the inverted inference and training costs, each min-max normalized over the full set so that a larger enclosed area is better on every axis. Color identifies the decoder family and the marker identifies the encoder backbone, using the same convention throughout the paper; solid lines denote convolutional encoders and dashed lines transformer encoders.
+**Caption:** Normalized multi-axis comparison of every evaluated configuration, split into (a) matched and (b) hybrid decoder-backbone pairings. The seven axes are IoU, Dice/F1, BF1 at r=2, clDice, the inverted normalized Betti-0 error, the inverted fragmentation index and inference speed (inverted latency), each min-max normalized over the full set so that a larger enclosed area is better on every axis. Color identifies the decoder family and the marker identifies the encoder backbone, using the same convention throughout the paper; solid lines denote convolutional encoders and dashed lines transformer encoders.
 
 ### Figure 5, `fig:leaderboard_matrix`
 

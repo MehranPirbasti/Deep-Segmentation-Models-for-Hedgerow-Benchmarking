@@ -24,7 +24,7 @@ approximately -0.440 deg to -0.240 deg longitude and 51.760 deg to 51.880 deg la
 
 ## UKCEH Land Cover Plus: Hedgerows ,  (c) UKCEH
 
-Supplied by the UK Center for Ecology & Hydrology under license, **not** as open
+Supplied by the UK Centre for Ecology & Hydrology under license, **not** as open
 data. Academic users can obtain it through the EDINA Environment Digimap service,
 or directly from the UKCEH Data Licensing Team. The product contains data derived
 from the Environment Agency National LIDAR Programme.
@@ -37,9 +37,9 @@ from the Environment Agency National LIDAR Programme.
 `scripts/02_make_splits.py` operates on `patch_inventory.csv` ,  patch identifier,
 window row and column, hedgerow fraction ,  and nothing else. It verifies, and
 refuses to write its output unless, no patch in one partition is adjacent to a
-patch in another. The released split assignment therefore lets anyone reconstruct
-and inspect the exact partition used in the paper without any pixel data changing
-hands.
+patch in another. The released script, its configuration and its recorded seed (42) therefore let
+anyone regenerate and inspect the exact partition used in the paper from a
+`patch_inventory.csv` built on their own licensed copy of the inputs.
 
 ## Credits required when reproducing a figure
 
