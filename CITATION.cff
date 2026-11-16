@@ -31,6 +31,7 @@ preferred-citation:
   title: "Benchmarking Deep Segmentation Models for Hedgerow Mapping: A Controlled Comparative Study of Vegetated Linear Structures in High-Resolution Remote Sensing"
   journal: "IEEE Transactions on Geoscience and Remote Sensing"
   year: 2026
+  notes: "Accepted for publication; DOI to follow"
   authors:
     - given-names: "Mehran"
       family-names: "Alizadeh Pirbasti"
